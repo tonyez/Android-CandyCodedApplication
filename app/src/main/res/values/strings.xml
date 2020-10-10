@@ -1,4 +1,8 @@
 <resources>
     <string name="app_name">Candy Coded</string>
     <string name="products_title">Products</string>
+    <string name="candy_address">618 E South St Orlando, FL</string>
+    <string name="contact_number">(012)345-6789</string>
+    <string name="office_hour">Everyday 10am-10pm</string>
+    <string name="placeholder_text">TextView</string>
 </resources>

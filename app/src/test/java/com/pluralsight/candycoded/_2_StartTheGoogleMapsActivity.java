@@ -8,8 +8,7 @@ import android.os.Bundle;
 import androidx.appcompat.app.AppCompatActivity;
 import android.view.View;
 
-import junit.framework.Assert;
-
+import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -170,7 +169,7 @@ public class _2_StartTheGoogleMapsActivity {
     public ArrayList<XMLTestHelpers.ViewContainer> readLayoutXML(String layoutFileName) {
         InputStream inputStream = null;
 
-        ArrayList<XMLTestHelpers.ViewContainer> viewContainers = new ArrayList<XMLTestHelpers.ViewContainer>();
+        ArrayList<XMLTestHelpers.ViewContainer> viewContainers = new ArrayList<>();
 
         try {
             inputStream = this.getClass().getClassLoader().getResourceAsStream(layoutFileName);
