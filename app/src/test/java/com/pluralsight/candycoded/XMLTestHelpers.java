@@ -49,7 +49,7 @@ public class XMLTestHelpers {
 
         ArrayList<ViewContainer> viewContainers = new ArrayList<ViewContainer>();
 
-        parser.require(XmlPullParser.START_TAG, null, "androidx.constraintlayout.widget.ConstraintLayout");
+        parser.require(XmlPullParser.START_TAG, null, "android.support.constraint.ConstraintLayout");
         while (parser.next() != XmlPullParser.END_TAG) {
             if (parser.getEventType() != XmlPullParser.START_TAG) {
                 continue;
